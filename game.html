@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Pedra Papel e Tesoura</title>
+</head>
+<body>
+    <section class="game">
+        <div class="score">
+            <div class="player-score">
+                <h2>Jogador</h2>
+                <p>0</p>
+            </div>
+            <div class="computer-score">
+                <h2>Computador</h2>
+                <p>0</p>
+            </div>            
+        </div>
+
+        <div class="intro">
+            <h1>Pedra Papel e Tesoura!</h1>
+            <button class="start">Começar</button>
+        </div>  
+
+        <div class="match fadeOut">
+            <h2 class="winner">Ecolha uma das 3 opções:</h2>
+            <div class="hands">
+                <img class="player-hand" src="./assets/pedra.png">
+                <img class="computer-hand" src="./assets/pedra.png">
+            </div>
+        </div> 
+
+        <div class="options fadeOut">
+            <button class="rock">Pedra</button>
+            <button class="paper">Papel</button>
+            <button class="scissors">Tesoura</button>
+        </div>  
+    </section>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
