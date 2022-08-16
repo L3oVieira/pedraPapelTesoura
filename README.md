@@ -1,4 +1,4 @@
-# pedraPapelTesoura
+# PedraPapel&Tesoura
 
 Versão Live: https://l3ovieira.github.io/pedraPapelTesoura/index.html
 
