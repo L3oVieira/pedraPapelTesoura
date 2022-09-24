@@ -21,7 +21,7 @@ const game = () => {
 
             optionsFadeOut(10);
 
-            winnerMSG = "Escolha umas das 3 opções:"
+            winnerMSG = "Escolha uma das 3 opções:"
             const winner = document.querySelector(".winner");
 
             winner.textContent = winnerMSG
